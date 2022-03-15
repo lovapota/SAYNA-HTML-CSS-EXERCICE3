@@ -1,0 +1,93 @@
+/*Coleur de contour pour repere*/
+.vert{
+    border: 2px solid green;
+}
+.rouge{
+    border: 2px solid red;
+}
+.jaune{
+    border: 2px solid yellow;
+}
+.bleu{
+    border: 2px solid blue;
+}
+/*Variable de couleur*/
+:root{
+    --color1:#FFFFFF;
+    --color2:#f7f7f7;
+    --color3:#f9f9f9;
+    --color4:#3d9f96;
+    --color5:#ababab;
+    --color6:#7e7e7e;
+    --color7:#322f36;
+    --color8:#27242b;
+}
+/*Variable de police*/
+:root{
+    --Open:'Open Sans', Arial, sans-serif;
+    --Helvetica:Helvetica, Arial, sans-serif, 'Raleway';
+    --Raleway:'Raleway', Arial, sans-serif;
+}
+/*Propriete commun du site*/
+.btn{
+    background-color: var(--color4);
+    color: var(--color1);
+    border-radius: 15% /50%;
+}
+h1{
+    color:var(--color8);
+    font-family: var(--Open);
+    font-weight: 200;
+}
+h1 span{
+    font-family: var(--Raleway);
+    font-weight: 600;
+}
+p{
+    color: var(--color5);
+    font-family: var(--Helvetica);
+}
+h5{
+    color: var(--color4);
+}
+h6{
+    font-family: var(--Raleway);
+    color: var(--color8);
+    font-weight: 700;
+}
+/*Header et barre de navigation*/
+.bar{
+    background-image: url(../img/header_bg.jpg);
+    border-bottom: 3px solid var(--color6);
+    font-family: var(--Open);
+}
+.lien{
+    color: #3d9f96;
+}
+/*Premiere partie*/
+.premiere{
+    background-image: url(../img/seperator2.jpg);
+}
+.contenu{
+    width: 50%;
+    margin: auto;
+}
+.premiere h1{
+    color: var(--color1);
+}
+/*Deuxieme partie*/
+.deuxieme{
+    background-color: aquamarine;
+}
+.icone{
+    width: 50%;
+}
+
+@media screen and (max-width:768px){
+    .contenu{
+        width: 95%;
+    }
+    .icone{
+        width: 90%;
+    }
+}
