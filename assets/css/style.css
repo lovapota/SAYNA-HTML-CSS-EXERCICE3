@@ -11,6 +11,9 @@
 .bleu{
     border: 2px solid blue;
 }
+.orange{
+    border: 2px solid orangered;
+}
 /*Variable de couleur*/
 :root{
     --color1:#FFFFFF;
@@ -81,6 +84,21 @@ h6{
 }
 .icone{
     width: 50%;
+}
+/*Troisieme partie*/
+.map{
+    background-image: url(../img/map_bg.png);
+}
+.sary{
+    position: relative;
+}
+.play{
+    position: absolute;
+    bottom: 50%;
+}
+/*Quatrieme partie*/
+.quatrieme{
+    background-image: url(../img/seperator1-.jpg);
 }
 
 @media screen and (max-width:768px){
